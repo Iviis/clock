@@ -19,11 +19,11 @@ function update(){
   
   //h = '14'
   
-  if (Number(h) >= 19){
+  if (Number(h) >= 19 or Number(h) <= 6){
     //noite
     var c1 = '#001334'
     var c2 = '#000215'
-  } else if (Number(h) >= 12){
+  } else if (Number(h) >= 13){
     //tarde
     var c1 = '#EDE88F'
     var c2 = '#b59f3c'
