@@ -19,7 +19,7 @@ function update(){
   
   //h = '14'
   
-  if (Number(h) >= 19 or Number(h) <= 6){
+  if (Number(h) >= 19 || Number(h) <= 6){
     //noite
     var c1 = '#001334'
     var c2 = '#000215'
